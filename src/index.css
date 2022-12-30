@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(137deg, rgba(173,113,16,1) 0%, rgba(187,237,247,1) 50%, rgba(223,188,138,1) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+
+.background {
+  position:relative;
+  align-items:center;
+  justify-content: center;
+  background-image: url('./Images/toppart.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./Font/Montserrat-ExtraLight.ttf') format("truetype");
+  font-weight: ExtraLight;
+}
+
+.hover {
+  cursor: pointer;
 }
