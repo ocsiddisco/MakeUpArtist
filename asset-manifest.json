@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/MakeUpArtist/static/css/main.3ec07817.css",
+    "main.js": "/MakeUpArtist/static/js/main.06e329cc.js",
+    "static/js/787.1e693262.chunk.js": "/MakeUpArtist/static/js/787.1e693262.chunk.js",
+    "static/media/p6.jpg": "/MakeUpArtist/static/media/p6.d0b0b481fbb979840889.jpg",
+    "static/media/p9.jpg": "/MakeUpArtist/static/media/p9.703b17b6f1c8465e9a7e.jpg",
+    "static/media/p3.jpg": "/MakeUpArtist/static/media/p3.7ce52d5846b0426ce679.jpg",
+    "static/media/toppart.jpg": "/MakeUpArtist/static/media/toppart.14c10758faec0e5a5322.jpg",
+    "static/media/p7.jpg": "/MakeUpArtist/static/media/p7.950916632f2948911342.jpg",
+    "static/media/p8.jpg": "/MakeUpArtist/static/media/p8.156671ba30ad267cbb16.jpg",
+    "static/media/p4.jpg": "/MakeUpArtist/static/media/p4.8761cb167b97cd474515.jpg",
+    "static/media/p2.jpg": "/MakeUpArtist/static/media/p2.a7a8aab4fe39ac54dfe9.jpg",
+    "static/media/p10.jpg": "/MakeUpArtist/static/media/p10.f99e49cfe9d4188ef60f.jpg",
+    "static/media/p1.jpg": "/MakeUpArtist/static/media/p1.de0c457e5c7f2933a43d.jpg",
+    "static/media/p5.jpg": "/MakeUpArtist/static/media/p5.f3ae8f55a7edfb2292e3.jpg",
+    "static/media/Montserrat-ExtraLight.ttf": "/MakeUpArtist/static/media/Montserrat-ExtraLight.ef3c777f702c89a0f300.ttf",
+    "index.html": "/MakeUpArtist/index.html",
+    "main.3ec07817.css.map": "/MakeUpArtist/static/css/main.3ec07817.css.map",
+    "main.06e329cc.js.map": "/MakeUpArtist/static/js/main.06e329cc.js.map",
+    "787.1e693262.chunk.js.map": "/MakeUpArtist/static/js/787.1e693262.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ec07817.css",
+    "static/js/main.06e329cc.js"
+  ]
+}
