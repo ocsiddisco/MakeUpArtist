@@ -14,14 +14,13 @@ class Contact extends React.Component {
     }
 
     handleInputChange(event) {
-        // const target = event.target;
-        // const value = target.value;
-        // const name = target.name;
+        const target = event.target;
+        const value = target.value;
+        const name = target.name;
 
-        // this.setState({
-        //     [name]: value
-        // });
-        this.setState({name: event.target.value})
+        this.setState({
+            [name]: value
+        });
     }
 
     handleSubmit(event) {
@@ -46,7 +45,7 @@ class Contact extends React.Component {
                                     <label>Name</label>
                                 </div>
                                 <div className='w-4/5'>
-                                    <input name='' type='text' onChange={this.handleInputChange} className=' w-4/5 rounded bg-orange-100 outline-none p-1' />
+                                    <input name='name' type='text' onChange={this.handleInputChange} className=' w-4/5 rounded bg-orange-100 outline-none p-1' />
                                 </div>
                             </div>
                             <div className="flex flex-row m-2 flex-wrap">
@@ -54,7 +53,7 @@ class Contact extends React.Component {
                                     <label>Email</label>
                                 </div>
                                 <div className='w-4/5'>
-                                    <input name='' type='text'  onChange={this.handleInputChange} className=' w-4/5 rounded bg-orange-100 outline-none p-1' />
+                                    <input name='email' type='text'  onChange={this.handleInputChange} className=' w-4/5 rounded bg-orange-100 outline-none p-1' />
                                 </div>
                             </div>
                             <div className="flex flex-row m-2 flex-wrap">
@@ -62,7 +61,7 @@ class Contact extends React.Component {
                                     <label>Message</label>
                                 </div>
                                 <div className='w-4/5'>
-                                    <textarea name='' type='text' style={{ height: 200}} onChange={this.handleInputChange} className=' w-4/5  flex rounded bg-orange-100 outline-none p-1' />
+                                    <textarea name='message' type='text' style={{ height: 200}} onChange={this.handleInputChange} className=' w-4/5  flex rounded bg-orange-100 outline-none p-1' />
                                 </div>
                             </div>
                             <div className='flex justify-end'>

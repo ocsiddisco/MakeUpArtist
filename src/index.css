@@ -15,10 +15,6 @@ body {
   position:relative;
   align-items:center;
   justify-content: center;
-  background-image: url('./Images/toppart.jpg');
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 
